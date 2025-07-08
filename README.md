@@ -25,4 +25,11 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 - Works completely wirelessly on local WiFi
 
 ---
+## How It Works
+1. ESP32 connects to WiFi and Firebase using API key.
+2. Web interface displays buttons for each person.
+3. When a button is pressed (Entry/Exit/Absent), the ESP32:
+   - Gets current timestamp via NTP
+   - Writes data to Firestore (under a nested map for each person)
+4. Data includes status (entry/exit/absent), time, and duration (for exit).
 
