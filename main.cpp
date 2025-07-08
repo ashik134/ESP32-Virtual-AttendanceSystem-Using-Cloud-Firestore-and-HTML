@@ -8,10 +8,10 @@
 const char* ssid = "Automation_Lab 1";
 const char* password = "autoone23";
 
-#define API_KEY "AIzaSyCvhijQq9aRsL5Z**********************"
-#define FIREBASE_PROJECT_ID "attendance-webtofirestore"
-#define USER_EMAIL "ashikrahim777@gmail.com"
-#define USER_PASSWORD "*********"
+#define API_KEY "your_api_key"
+#define FIREBASE_PROJECT_ID "your-Project-id"
+#define USER_EMAIL "your email"
+#define USER_PASSWORD "your password"
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
