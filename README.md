@@ -33,3 +33,11 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
    - Writes data to Firestore (under a nested map for each person)
 4. Data includes status (entry/exit/absent), time, and duration (for exit).
 
+---
+## 📁 Firestore Data Structure
+/Attendance/
+├── Person1/
+│ ├── status: "entry"
+│ ├── time: "2025-07-07 10:30:00"
+│ └── duration: "2h 45m" (only for exit)
+
