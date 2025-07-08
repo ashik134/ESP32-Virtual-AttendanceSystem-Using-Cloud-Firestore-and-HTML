@@ -11,7 +11,7 @@ const char* password = "autoone23";
 #define API_KEY "AIzaSyCvhijQq9aRsL5ZLuo4pN0msb0JM8PSdKs"
 #define FIREBASE_PROJECT_ID "attendance-webtofirestore"
 #define USER_EMAIL "ashikrahim777@gmail.com"
-#define USER_PASSWORD "Ashik@123"
+#define USER_PASSWORD "*********"
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
