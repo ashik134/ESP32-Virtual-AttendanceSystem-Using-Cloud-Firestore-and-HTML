@@ -37,7 +37,7 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 ## 📁 Firestore Data Structure
 /Attendance/
 ├── Person1/
-│ ├── status: "entry"
-│ ├── time: "2025-07-07 10:30:00"
-│ └── duration: "2h 45m" (only for exit)
+│     status: "entry"
+│     time: "2025-07-07 10:30:00"
+│     duration: "2h 45m" (only for exit)
 
