@@ -3,7 +3,6 @@
 This is a cloud-connected attendance system built using **ESP32**, **Firebase Firestore**, and **PlatformIO (VS Code)**. It allows tracking of daily **entry**, **exit**, and **absence** status for up to 5 individuals via a custom web interface hosted on the ESP32.
 
 ---
-
 ## Tech Stack
 
 - **Board**: ESP32 DevKit v1
@@ -37,9 +36,9 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 ## Firestore Data Structure
 /Attendance/
    Person1/
-      status: "entry"
-      time: "2025-07-07 10:30:00"
-      duration: "2h 45m" (only for exit)
+      {status: "entry"--
+       time: "2025-07-07 10:30:00"--
+       duration: "2h 45m" (only for exit) }
 
 ##  Future Improvements
 - Add biometric sensor (Fingerprint/RFID)
