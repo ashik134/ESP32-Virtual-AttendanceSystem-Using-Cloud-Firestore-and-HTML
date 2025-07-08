@@ -44,6 +44,20 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 - Add biometric sensor (Fingerprint/RFID)
 - User authentication
 - Firebase Cloud Functions for alerts
+<h2>📷 Project Visuals</h2>
+
+<a href="Images/UI_Web_Interface.png">
+  <img src="Images/UI_Web_Interface.png" alt="Web UI Interface with improved layout" width="600"/>
+</a>
+
+<a href="Images/data_flow.png">
+  <img src="Images/data_flow.png" alt="Block Diagram of data flow" width="600"/>
+</a>
+
+<a href="Images/Cloud_Firestore_data_storage.png">
+  <img src="Images/Cloud_Firestore_data_storage.png" alt="Data Storing in Cloud Firestore" width="600"/>
+</a>
+
 
 ##  Screenshot / Circuit Diagram
 
@@ -51,6 +65,7 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 [![web UI Interface with improved layout](Images/UI_Web_Interface.png)](Images/UI_Web_Interface.png)
 [![Block Diagram of data flow](Images/data_flow.png)](Images/data_flow.png)
 [![Data Storing in Cloud Firestore](Images/Cloud_Firestore_data_storage.png)](Images/Cloud_Firestore_data_storage.png)
+
 
 
 
