@@ -48,7 +48,8 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 ##  Screenshot / Circuit Diagram
 
 ```Markdown
-[![web UI Interface with improved layout](Images/UI Web Interface.png)](Images/UI Web Interface.png)
-[![Block Diagram of data flow](Images/data-flow.png)](Images/data-flow.png)
+[![web UI Interface with improved layout](Images/UI_Web_Interface.png)](Images/UI_Web_Interface.png)
+[![Block Diagram of data flow](Images/data_flow.png)](Images/data_flow.png)
+[![Data Storing in Cloud Firestore](Images/Cloud_Firestore_data_storage.png)](Images/Cloud_Firestore_data_storage.png)
 
 
