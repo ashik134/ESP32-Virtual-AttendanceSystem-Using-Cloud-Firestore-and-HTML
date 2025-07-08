@@ -1,13 +1,3 @@
-
-##  Tech Stack
-
-- **Board**: ESP32 DevKit v1
-- **Platform**: PlatformIO (VS Code)
-- **Language**: C++
-- **Cloud Backend**: Firebase Firestore (NoSQL)
-- **Network**: WiFi (NTPClient for time sync)
-- **Web Interface**: HTML hosted by ESP32
-
----
+dummy.txt
 
 
