@@ -46,20 +46,14 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 - Firebase Cloud Functions for alerts
 
 
-##  Screenshot / Circuit Diagram
 <h2>🔗 View Project Images</h2>
 
 <ul>
-  <li><a href="Images/UI_Web_Interface.png" target="_blank">➡️ View Web UI Interface</a></li>
-  <li><a href="Images/data_flow.png" target="_blank">➡️ View Block Diagram of Data Flow</a></li>
-  <li><a href="Images/Cloud_Firestore_data_storage.png" target="_blank">➡️ View Cloud Firestore Data Storage</a></li>
+  <li><a href="Images/UI_Web_Interface.png" target="_blank">➡️ View web UI Interface with improved layout</a></li>
+  <li><a href="Images/data_flow.png" target="_blank">➡️ View Block Diagram of Data Flow to Firestore</a></li>
+  <li><a href="Images/Cloud_Firestore_data_storage.png" target="_blank">➡️ View Cloud Firestore - Data Storage</a></li>
 </ul>
 
-
-```Markdown
-[![web UI Interface with improved layout](Images/UI_Web_Interface.png)](Images/UI_Web_Interface.png)
-[![Block Diagram of data flow](Images/data_flow.png)](Images/data_flow.png)
-[![Data Storing in Cloud Firestore](Images/Cloud_Firestore_data_storage.png)](Images/Cloud_Firestore_data_storage.png)
 
 
 
