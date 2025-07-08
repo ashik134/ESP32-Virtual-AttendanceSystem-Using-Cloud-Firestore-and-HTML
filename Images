@@ -1,2 +1,48 @@
-fneufnuf
-fofrkork
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance System</title>
+  <style>
+    body { font-family: Arial; text-align: center; background: #f0f0f0; }
+    h1 { color: #333; }
+    .person { margin-bottom: 20px; }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .entry { background-color: #4CAF50; color: white; }
+    .exit { background-color: #f44336; color: white; }
+    .absent { background-color: #9E9E9E; color: white; }
+  </style>
+</head>
+<body>
+  <h1>ESP32 Attendance System</h1>
+
+  <div class="person">
+    <h3>Person 1</h3>
+    <button class="entry" onclick="sendAction('p1_entry')">Entry</button>
+    <button class="exit" onclick="sendAction('p1_exit')">Exit</button>
+    <button class="absent" onclick="sendAction('p1_absent')">Absent</button>
+  </div>
+
+  <div class="person">
+    <h3>Person 2</h3>
+    <button class="entry" onclick="sendAction('p2_entry')">Entry</button>
+    <button class="exit" onclick="sendAction('p2_exit')">Exit</button>
+    <button class="absent" onclick="sendAction('p2_absent')">Absent</button>
+  </div>
+
+  <!-- Repeat for Person 3, 4, 5 -->
+
+  <script>
+    function sendAction(action) {
+      fetch(`/${action}`, { method: 'POST' })
+        .then(response => alert("Marked: " + action))
+        .catch(err => alert("Error sending action"));
+    }
+  </script>
+</body>
+</html>
