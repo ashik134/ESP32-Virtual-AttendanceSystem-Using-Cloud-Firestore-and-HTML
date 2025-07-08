@@ -51,8 +51,7 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 [![web UI Interface with improved layout](Images/UI_Web_Interface.png)](Images/UI_Web_Interface.png)
 [![Block Diagram of data flow](Images/data_flow.png)](Images/data_flow.png)
 [![Data Storing in Cloud Firestore](Images/Cloud_Firestore_data_storage.png)](Images/Cloud_Firestore_data_storage.png)
-[![Build Status](https://travis-ci.org/adam-p/markdown-here.svg?branch=master)](https://travis-ci.org/adam-p/markdown-here)
-[![Arduino](https://upload.wikimedia.org/wikipedia/commons/3/32/Arduino_Uno_-_R3.jpg)](https://upload.wikimedia.org/wikipedia/commons/3/32/Arduino_Uno_-_R3.jpg)
+
 
 
 
