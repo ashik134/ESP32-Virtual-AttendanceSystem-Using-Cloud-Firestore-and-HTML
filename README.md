@@ -1,4 +1,4 @@
-# ESP32-Virtual-Attendance-System-Using-Cloud-Firestore-and-HTML
+# ESP32 Virtual Attendance System Using Cloud Firestore and HTML
 
 This is a cloud-connected attendance system built using **ESP32**, **Firebase Firestore**, and **PlatformIO (VS Code)**. It allows tracking of daily **entry**, **exit**, and **absence** status for up to 5 individuals via a custom web interface hosted on the ESP32.
 
