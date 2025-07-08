@@ -41,3 +41,7 @@ This is a cloud-connected attendance system built using **ESP32**, **Firebase Fi
 │     time: "2025-07-07 10:30:00"
 │     duration: "2h 45m" (only for exit)
 
+##  Future Improvements
+- Add biometric sensor (Fingerprint/RFID)
+- User authentication
+- Firebase Cloud Functions for alerts
