@@ -8,7 +8,7 @@
 const char* ssid = "Automation_Lab 1";
 const char* password = "autoone23";
 
-#define API_KEY "AIzaSyCvhijQq9aRsL5ZLuo4pN0msb0JM8PSdKs"
+#define API_KEY "AIzaSyCvhijQq9aRsL5Z**********************"
 #define FIREBASE_PROJECT_ID "attendance-webtofirestore"
 #define USER_EMAIL "ashikrahim777@gmail.com"
 #define USER_PASSWORD "*********"
